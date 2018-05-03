@@ -1,0 +1,87 @@
+/* mainFrame */
+html{overflow-x:hidden !important;overflow-y:scroll !important}
+body{overflow-x:hidden !important;padding:20px}
+
+/*Asthis tab*/
+dl.atab{}
+dl.atab dt{height:25px;border-bottom:2px solid #3d6dcc;padding:0 10px}
+dl.atab dt strong{float:left;display:block;height:25px;padding:0 10px;line-height:25px;text-align:center;color:#333;cursor:pointer;background:url(../images/repeat_x_bg.gif) 0 -120px repeat-x}
+dl.atab dt strong.atabOn{position:relative;color:#fff;font-weight:bold;background:url(../images/repeat_x_bg.gif) 0 -60px repeat-x}
+dl.atab dd{padding:10px;clear:both}
+
+/*Asthis box*/
+dl.abox{}
+dl.abox dt{height:25px;border-bottom:2px solid #3d6dcc;padding:0 10px}
+dl.abox dt strong{float:left;display:block;height:25px;padding:0 10px;line-height:25px;text-align:center;color:#666;position:relative;color:#fff;font-weight:bold;background:url(../images/repeat_x_bg.gif) 0 -60px repeat-x}
+dl.abox dt span{float:left;display:block;height:25px;line-height:25px;text-align:center;color:#333;position:relative;background:url(../images/repeat_x_bg.gif) 0 -120px repeat-x}
+dl.abox dt span a{display:block;padding:0 10px;color:#333;text-decoration:none;font-weight:bold}
+dl.abox dd{padding:10px;clear:both}
+
+/* mainTips */
+.mainTips{margin:0 0 10px;padding:10px;border:1px solid #e5e5e5;background:#fafafa}
+
+/* formTable */
+.formTable{width:100%;font-size:12px !important}
+.formTable td.inputTitle{font-weight:bold; background:url(../images/repeat_x_bg.gif) 0 -25px repeat-x; color: #ffffff; padding-left: 10px}
+.formTable td.inputTitle_b{font-weight:bold; background:#e6e6e6; color: #616161; text-shadow:0 1px 0 #fff; padding-left: 10px}
+#e6e6e6 none repeat scroll 0 0
+.formTable td.inputArea{padding:5px 0;border-bottom:1px solid #e5e5e5}
+.formTable label{padding:0 10px 0 0}
+.formTable td.inputTip{color:#999;padding:5px 0;border-bottom:1px solid #e5e5e5}
+#operation{padding:10px 0 20px}
+
+/* listTable */
+.listTable{width:100%;border-top:1px solid #e5e5e5;border-left:1px solid #e5e5e5;font-size:12px !important}
+.listTable tr{}
+.listTable th{border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding:0 10px;height:29px;line-height:29px;*line-height:28px;background:url(../images/repeat_x_bg.gif) 0 -90px repeat-x}
+.listTable td{border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;padding:5px 10px;line-height:20px}
+.listTable span.toggle_tr{display:inline-block;padding:0 5px 0 0;cursor:pointer}
+.listTable label{padding:0 10px 0 0}
+
+/*  uwa addon buttons */
+#uwa_totop{position:relative;top:0;z-index:5}
+#uwa_tobottom{position:relative;bottom:0;z-index:5}
+#totop_button{position:fixed;z-index:99;bottom:62px;right:10px;padding:0;margin:0;border:0;line-height:24px}
+#refresh_button{position:fixed;z-index:99;bottom:36px;right:10px;padding:0;margin:0;border:0;line-height:24px}
+#tobottom_button{position:fixed;z-index:99;bottom:10px;right:10px;padding:0;margin:0;border:0;line-height:24px}
+
+/* index */
+#header{position:absolute;top:0;left:0;z-index:2;width:100%;height:90px}
+#header #mainNav{position:relative;min-width:800px;height:59px;border-bottom:1px solid #3d5c99;_overflow:hidden;background:url(../img/repeat_x_bg.gif) 0 0 repeat-x;color:#fff}
+#header #mainNav #logo{float:left;width:200px;height:59px;background:url(../img/admin_logo.png) 0 0  no-repeat}
+#header #mainNav #logo h1{text-indent:-9999px;line-height:59px;font-size:24px;font-weight:bold}
+#header #mainNav #mainMenu{float:left;position:relative;height:59px;text-shadow:1px 1px 1px rgba(255, 255, 255, 0.2)}
+#header #mainNav #mainMenu li{float:left;margin:30px 4px 0 0;padding:0 10px;height:29px;border:1px solid #528fcc;border-bottom:none;color:#def;font-weight:bold;font-size:14px;background:url(../img/repeat_x_bg.gif) 0 0 repeat-x;cursor:pointer;border-radius:4px 4px 0 0}
+#header #mainNav #mainMenu li.current,#header #mainNav #mainMenu li.hover{border:1px solid #3d5c99;border-bottom:none;color:#333;background:url(../img/repeat_x_bg.gif) 0 -90px repeat-x}
+#header #statusInfo{position:absolute;top:0;right:0;padding:0 0 0 7px;height:24px;color:#666;border-radius:0 0 0 10px;background:#fff;box-shadow:0 0 3px rgba(0,0,0,0.5); z-index:99}
+#header #statusInfo ul{_zoom:1;_display:inline;margin:0;height:20px;padding:1px 0 3px;_padding:2px 0 3px;line-height:20px;font-size:12px}
+#header #statusInfo ul li.top{float:left;padding:0 5px}
+#header #statusInfo ul li.a{color:#3d6dcc}
+#header #statusInfo ul li#shortcutSwitch div{position:relative;padding:0 5px 1px;margin:-1px 0 0;border:2px solid #cfd6e5;color:#369;background:#eef2f7;font-weight:bold;line-height:18px;z-index:102}
+#header #statusInfo ul li#shortcutSwitch.hover div{margin:0;border:2px solid #369;border-bottom:none;background:#fff}
+#header #statusInfo ul li #shortcutItems{display:block;position:absolute;width:auto;height:auto;top:20px;left:auto;right:5px;z-index:101;border:2px solid #369;background:#fff;zoom:1;box-shadow:0 0 5px rgba(0,0,0,0.3);display:none}
+#header #statusInfo ul li #shortcutItems li{padding:2px 10px 3px}
+#header #positionBar{position:relative;padding:0 10px;height:29px;overflow:hidden;border-bottom:1px solid #aaa;color:#666;font-size:12px;line-height:29px;background:url(../img/repeat_x_bg.gif) 0 -120px repeat-x;text-shadow:1px 1px 1px rgba(255, 255, 255, 0.8)}
+#header #positionBar #menuControl{float:left;padding-right:15px;overflow:hidden}
+#header #positionBar #menuControl span{padding-right:5px}
+#header #positionBar #menuControl span.hover{color:#000}
+#header #positionBar #position{float:left;padding:0 0 0 30px;background:url(../img/c.png) 0 0 no-repeat}
+#header #positionBar #official_link{position:absolute;right:10px}
+#header #positionBar #official_link a{padding-left:5px;text-decoration:none;color:#666}
+#header #positionBar #official_link a.hover{color:#000}
+#sidebar{width:199px;overflow:auto;background:#eef2f7;border-right:1px solid #b8c0cc}
+#sidebar dt{padding:5px 10px;border-top:1px solid #e5eeff;border-bottom:1px solid #b8becc;color:#515b65;font-weight:bold;background:#cfd6e5}
+#sidebar dt.hover{color:#292e33;border-bottom:1px solid #b8c0cc}
+#sidebar dd{border-top:1px solid #e5eeff;color:#515b65;font-size:12px}
+#sidebar dd li{padding:5px 20px}
+#sidebar dd li.current,#sidebar dd li.hover{background:#3d6dcc;color:#fff;box-shadow:0 0 5px rgba(0,0,0,0.2) inset;text-shadow:0 0 5px rgba(0,0,0,0.5);font-weight:bold}
+#main{position:absolute;top:90px;right:0;bottom:30px;left:200px;z-index:1;overflow:hidden}
+#main #mainiFrame{overflow-x:hidden}
+#footer{position:absolute;bottom:0;z-index:2;width:100%;height:29px;border-top:1px solid #999;font-size:12px;background:url(../img/repeat_x_bg.gif) 0 -120px repeat-x;box-shadow:0 3px 3px rgba(0,0,0,0.2) inset}
+#iframeTabs{margin:-1px 0 0;padding:0 360px 0 200px;z-index:4}
+#iframeTabs li{margin:0 2px;padding:0;float:left;height:24px;line-height:24px;color:#333;text-shadow:1px 1px 1px rgba(255, 255, 255, 0.5);background:#ccc;border-radius:0 0 5px 5px;border:1px solid #aaa;border-top:1px solid #999;box-shadow:0 3px 3px rgba(0,0,0,0.2) inset,0 2px 2px rgba(0,0,0,0.2)}
+#iframeTabs li span{padding-left:9px}
+#iframeTabs li.current,#iframeTabs li.hover{background:#fff;color:#222;border:1px solid #999;border-top:1px solid #fff;box-shadow:0 2px 2px rgba(0,0,0,0.3)}
+#iframeTabs li b.hover{color:#f00}
+#copyright{padding:0 10px;position:absolute;top:0;right:0;text-align:right;color:#666;text-shadow:1px 1px 1px rgba(255, 255, 255, 0.8);z-index:3}
+
